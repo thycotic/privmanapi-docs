@@ -69,7 +69,7 @@ POST /api/v1/policies/{policyId}/add-filters
 
 | Parameter | Value |
 | ----- | ----- |
-| Filters | An `Array[FilterModel]`, can be used to add multiple filters at the same time, up to a maximum of TODO |
+| Filters | An `Array[FilterModel]`, can be used to add multiple filters at the same time. |
 | Id | Filter Ids, 32-bit character string representing a specific filter, to be added to the policy.  |
 | FilterRole | Public enum, where 1=ApplicationTarget, 2=Inclusion, and 3=Exclusion. |
 
