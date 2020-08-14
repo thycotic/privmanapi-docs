@@ -7,6 +7,10 @@ With release 10.8 of Privilege Manager Thycotic is providing a customer facing A
 
 Thycotic is following the OpenAPI standard and our customers are offered the standard Swagger UI interface to interact with and learn how to use Privilege Manager's public API endpoints.
 
+## Installing the API
+
+The Privilege Manager Application Programming Interface packages are installed through the main Privilege Manager console. Navigate to __Admin | Setup__ and follow the steps as documented under [Upgrades](https://docs.thycotic.com/privman/10.8.0/install/upgrades/index.md)
+
 ## Accessing the API
 
 To access the Privilege Manager API,
