@@ -11,6 +11,8 @@ Thycotic is following the OpenAPI standard and our customers are offered the sta
 
 The Privilege Manager Application Programming Interface packages are installed through the main Privilege Manager console. Navigate to __Admin | Setup__ and follow the steps as documented under [Upgrades](https://docs.thycotic.com/privman/10.8.0/install/upgrades/index.md)
 
+>**Note**: Cloud instances have the API installed by default, just like other features, such as foreign system connectors etc.
+
 ## Accessing the API
 
 To access the Privilege Manager API,
