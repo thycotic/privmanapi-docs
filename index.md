@@ -13,6 +13,10 @@ The Privilege Manager Application Programming Interface packages are installed t
 
 >**Note**: Cloud instances have the API installed by default, just like other features, such as foreign system connectors etc.
 
+## Creating an API Client User
+
+Before you can access the API and start using the API endpoints, you need to setup an API Client User in the Privilege Manager Console. For details on the API Client User setup refer to the [Users](https://docs.thycotic.com/privman/10.8.0/admin/users) topic in the main Privilege Manager documentation, specifically access [How to Manually Add API Client Users](https://docs.thycotic.com/privman/10.8.0/admin/users/index.md#how_to_manually_add_api_client_users) and the [Add Roles to a User](https://docs.thycotic.com/privman/10.8.0/admin/users/index.md#add_roles_to_a_user) information.
+
 ## Accessing the API
 
 To access the Privilege Manager API,
