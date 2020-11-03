@@ -35,7 +35,7 @@ Refer to ["How to Manually Add API Client Users" and "Add Roles to a User"](htts
 For an API Client User to logout, a DELETE request for the api/logon/token needs to be issued with the bearer token in the Authorization header.
 
 ```curl
-curl -X DELETE "https://yourinstancename/TMS/services/api/logon/token/{bearer token}"
+curl -X DELETE --header "Authorization: Bearer {token}" "https://yourinstancename/tms/services/api/logon/token"
 ```
 
 with a request URL of:
