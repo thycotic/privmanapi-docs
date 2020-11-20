@@ -22,9 +22,12 @@ POST /api/logon/token
 | Password | clientsecret |
 | UserName | clientid |
 
-The auth token will be returned to you. Copy and paste that token into the __Token from API Authentication__ field in the header section of the API Reference page.
+The auth token will be returned to you.
 
->**Note**: __DO NOT__ hit Enter, just paste the token text and access the available API methods.
+1. Copy the token.
+1. Click __Authorize__.
+1. In the __Available authorizations__ modal, paste that token into the __Value__ field.
+1. On the modal click __Authorize__.
 
 You may also add the returned token to your Authorization header as a bearer token.
 
