@@ -7,10 +7,9 @@ Policies can be retrieved from the instance through either a GetAll call or by r
 
 Policies can also be created via various available post methods.
 
-Refer to these scripts for examples:
+Refer to this script as an example:
 
 * [Get enabled policies](../scripts/03a-get-enabled-policies.ps1)
-* [Post new Windows Policy](../scripts/05a-post-new-win-policy.ps1)
 
 ## GET
 
