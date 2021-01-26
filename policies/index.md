@@ -5,7 +5,11 @@
 
 Policies can be retrieved from the instance through either a GetAll call or by requesting a specific itemId.
 
-Policies can also be created via various available post methods
+Policies can also be created via various available post methods.
+
+Refer to this script as an example:
+
+* [Get enabled policies](../scripts/03a-get-enabled-policies.ps1)
 
 ## GET
 

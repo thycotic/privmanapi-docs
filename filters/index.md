@@ -5,6 +5,11 @@
 
 Filters can be retrieved from the instance through either a GetAll call or by requesting a specific itemId.
 
+Refer to these scripts for examples:
+
+* [Get all filters](../scripts/04a-get-all-filters.ps1)
+* [Get user context filters](../scripts/05a-get-user-context-filters.ps1)
+
 ## filters/GetAll
 
 GET method to request all filters currently available on your Privilege Manager instance.
