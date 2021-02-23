@@ -5,6 +5,13 @@
 
 To call the API first user need to get a token from `.../Tms/services/api/logon/token`.
 
+Refer to these scripts for examples:
+
+* [Authentication with invoke REST method](../scripts/00a-auth-invoke-method.ps1)
+* [Authentication with invoke web request](../scripts/00b-auth-invoke-web-request.ps1)
+* [Get Token with invoke REST method](../scripts/01a-get-token-invoke-method.ps1)
+* [Get Token with invoke web request](../scripts/01b-get-token-invoke-web-request.ps1)
+
 ## POST
 
 You will need to post a request message with the following details:
@@ -31,7 +38,7 @@ The auth token will be returned to you.
 
 You may also add the returned token to your Authorization header as a bearer token.
 
-Refer to ["How to Manually Add API Client Users" and "Add Roles to a User"](htts://docs.thycotic.com/privman/10.8.0/admin/users#how_to_manually_add_api_client_users) to setup your API Client User and to add that user to the Privilege Manager Administrators role.
+Refer to ["How to Manually Add API Client Users" and "Add Roles to a User"](https://docs.thycotic.com/privman/11.0.0/admin/users#how_to_manually_add_api_client_users) to setup your API Client User and to add that user to the Privilege Manager Administrators role.
 
 ## DELETE
 
