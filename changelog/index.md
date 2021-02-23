@@ -5,7 +5,7 @@
 
 Journal of chronological changes to the Privilege Manager API documentation:
 
-## February 2020 - 11.0.0
+## February 2021 - 11.0.0
 
 * Added various example scripts.
 
