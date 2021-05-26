@@ -12,7 +12,7 @@ Use this API to run a generic task.
 POST method sending a task Id, instance name, and input parameter values.
 
 ```json
-POST /api/v1/reports/{reportId}
+POST /api/v1/tasks/{taskId}
 {
   "taskId": "string",
   "instanceName": "string",
