@@ -3,7 +3,7 @@
 [priority]: # (2)
 # Tasks
 
-Use this API to run a generic task.
+Use this API to run a generic task. Any task targeted to run on endpoints can be run/scheduled via this API, including the Password Randomization task.
 
 ## POST
 
@@ -23,10 +23,26 @@ POST /api/v1/tasks/{taskId}
 | Parameter | Value |
 | ----- | ----- |
 | taskId | The item Id under which to create the generic task in Privilege Manager. |
-| instanceName | `WHAT IS THIS exactly?` |
-| inputParameterValues | `WHAT IS THIS exactly? What are the bare minimum input para values?` |
+| instanceName | Instance as in task instance. The example below uses TestAPI as an instance name and if used as a scheduled task, the name would be "Scheduled run TestAPI".  |
+| inputParameterValues | The input parameter values as found in the item xml under the inputParameterValues node. |
 
-+++++QUESTIONS+++++
-1. What is the instanceName, where does the user find it?
-2. What are the inputParameterValues, where does the user find those? 
-3. Is this for server tasks, client tasks, all kinds of tasks? 
+## Example
+
+```json
+Url: .../services/api/v1/tasks/38775f9e-9995-49de-8732-4994d0d2332a?instanceName=TestAPI
+Body: [
+       {
+        "Name":"WmiClasses",
+        "Value":{
+        "type":"http://schemas.arellia.com/dc/:ObjectWrapper", "ValueType":"System.String[]", "Value":[ "ROOT\\CIMV2:WIN32_ComputerSystemProduct", "ROOT\\CIMV2:Win32_ComputerSystem", "ROOT\\CIMV2:Win32_OperatingSystem" ] 
+        } 
+       }, 
+       {
+        "Name":"ResourceIds", 
+        "Value":{ 
+        "type":"Arellia.Serialization.ObjectWrapper, Arellia.Core", "ValueType":"System.Guid[]",
+        "Value":["1d406d08-ffeb-463f-b3d1-6fd790f5a358"]
+        }
+       }
+      ]
+```

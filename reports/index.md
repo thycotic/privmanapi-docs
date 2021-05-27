@@ -3,14 +3,14 @@
 [priority]: # (2)
 # Reports
 
-Use this API to retrieve reports details based on an item ID and parameters posted to the server. For example, the reports endpoint can be used to find:
+Use this API to retrieve reports details based on an item ID and parameters posted to the server. For example, the reports API can be used to find:
 
 * Date of last check-in with the server.
 * Confirmation that an endpoint has all the required policies installed.
 * Confirmation that an endpoint has the latest version of all policies.
 * Version of the agent(s) installed on the endpoint.
 
-Basically anything that Privilege Manager reports on can now also be pulled via API method.
+Basically anything that Privilege Manager reports on can now also be pulled via API.
 
 ## POST
 
@@ -22,7 +22,7 @@ POST method supplying a report Id to have the report data returned in the respon
 POST /api/v1/reports/{reportId}
 {
   "reportId": "string",
-  "paramterValues": "array",
+  "parameterValues": "array",
 }
 ```
 
@@ -45,6 +45,3 @@ POST /api/v1/reports/{reportId}
 1. All the default parameters are returned:
 
    ![alt](../images/reports-default-response.png "Response example")
-
-+++++QUESTION++++++
-BASED ON THIS EXAMPLE, I WOULD LIKE TO ALSO DO A POST REPORT ID WITH ONLY THE AGENTVERSION AS A PARAMETER. HOW DO I FORM THE ARRAY OR HOW TO I GET THE PARAMETER VALUE? I TRIED "AgentVersion" inside the [{}] pairs, but it didn't work.
