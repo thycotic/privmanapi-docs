@@ -24,7 +24,7 @@ POST /api/v1/tasks/{taskId}
 | ----- | ----- |
 | taskId | The item Id under which to create the generic task in Privilege Manager. |
 | instanceName | Instance as in task instance. The example below uses TestAPI as an instance name and if used as a scheduled task, the name would be "Scheduled run TestAPI".  |
-| inputParameterValues | The input parameter values as found in the item xml under the inputParameterValues node. |
+| inputParameterValues | The input parameter values as found in the item XML under the inputParameterValues node. |
 
 ## Example
 

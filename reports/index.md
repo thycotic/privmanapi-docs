@@ -3,7 +3,7 @@
 [priority]: # (2)
 # Reports
 
-Use this API to retrieve reports details based on an item ID and parameters posted to the server. For example, the reports API can be used to find:
+Use this API to retrieve report details based on an item ID and parameters posted to the server. For example, the reports API can be used to find:
 
 * Date of last check-in with the server.
 * Confirmation that an endpoint has all the required policies installed.
@@ -29,7 +29,7 @@ POST /api/v1/reports/{reportId}
 | Parameter | Value |
 | ----- | ----- |
 | reportId | The item Id of a given report available in Privilege Manager. |
-| parameterValues | This array if left empty, returns all default parameters of the report Id provided in the POST method. If custom parameters are defined, those need to be provided in .json format. It's possible to also trim the response to a subset of the parameters available. |
+| parameterValues | If this array is left empty, this method returns all default parameters of the requested report. If custom parameters are defined, those need to be provided in JSON format. It's possible to also trim the response to a subset of the parameters available. |
 
 ## Example Test
 

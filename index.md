@@ -9,7 +9,7 @@ Privilege Manager version 10.8 and up provides public facing API access. Thycoti
 
 The Privilege Manager Application Programming Interface packages are installed through the main Privilege Manager console. Navigate to __Admin | Setup__ and follow the steps as documented under [Upgrades](https://docs.thycotic.com/privman/11.0.0/install/upgrades/index.md)
 
->**Note**: Cloud instances have the API installed by default, just like other features, such as foreign system connectors etc.
+>**Note**: Cloud instances have the API installed by default, just like other features, such as foreign system connectors, etc.
 
 ## Creating an API Client User
 
@@ -21,7 +21,7 @@ Refer to the [Roles](https://docs.thycotic.com/privman/11.1.0/admin/roles) and [
 
 To access the Privilege Manager API,
 
-1. in the Privilege Manager Console in the upper right-hand corner of the page, navigate to the __Help__ icon.
+1. In the Privilege Manager Console in the upper right-hand corner of the page, navigate to the __Help__ icon.
 1. Select __API Reference__.
 
 ![api reference](images/api-landing.png "API Reference landing page")
