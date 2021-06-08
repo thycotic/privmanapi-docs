@@ -5,6 +5,12 @@
 
 Journal of chronological changes to the Privilege Manager API documentation:
 
+## June 2021 - 11.1.0
+
+* New API endpoints added:
+  * [Reports](../reports/index.md)
+  * [Tasks](../tasks/index.md)
+
 ## February 2021 - 11.0.0
 
 * Added various example scripts.
